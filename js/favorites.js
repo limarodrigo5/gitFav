@@ -100,12 +100,13 @@ export class FavoritesView extends Favorites {
         row.querySelector(".repositories").textContent = user.public_repos;
         row.querySelector(".followers").textContent = user.followers;
 
-        row.querySelector(".remove").addEventListener("click", () => {
+     
+        row.querySelector(".remove").onclick = () => {
           const isOk = confirm("Tem certeza que deseja deletar essa linha?");
           if (isOk) {
             this.delete(user);
           }
-        });
+        };
 
         this.tbody.append(row);
       });
