@@ -107,15 +107,6 @@ export class FavoritesView extends Favorites {
           }
         });
 
-        document.addEventListener("keydown", (event) => {
-          if (event.keyCode === 27) {
-            const isOk = confirm("Tem certeza que deseja deletar essa linha?");
-            if (isOk) {
-              this.delete(user);
-            }
-          }
-        });
-
         this.tbody.append(row);
       });
     }
