@@ -6,7 +6,7 @@ GitFav é uma aplicação simples que permite que você favorite perfis do GitHu
 
 Para usar o GitFav, siga estas etapas:
 
-1. Clone este repositório em sua máquina local:
+1. Clone este repositório em sua máquina local (Ou acesse o [GitFav](https://limarodrigo5.github.io/gitFav/)):
 
 ```bash
 git clone https://github.com/limarodrigo5/gitFav.git
@@ -20,7 +20,7 @@ git clone https://github.com/limarodrigo5/gitFav.git
 
 5. O perfil do usuário favoritado será exibido na tabela abaixo. Você pode favoritar vários perfis do GitHub desta forma.
 
-6. Para remover um perfil favoritado, clique no botão "Remove" na linha correspondente àquele perfil na tabela ou pressione a tecla "Esc".
+6. Para remover um perfil favoritado, clique no botão "Remove" na linha correspondente àquele perfil na tabela.
 
 7. Se todos os perfis forem removidos da tabela, uma mensagem "Nenhum favorito ainda" será exibida no lugar da tabela.
 
